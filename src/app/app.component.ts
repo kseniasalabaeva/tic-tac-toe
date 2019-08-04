@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
     styleUrls: ['./app.component.less']
 })
 export class AppComponent {
-    title = 'tic-tac-toe';
+    public title = 'tic-tac-toe';
+    public fields = ['1', '2', '3', '4', '5', '6', '7', '8', '9'];
 }

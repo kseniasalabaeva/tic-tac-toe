@@ -1,1 +1,5 @@
-<button mat-button>Click me!</button>
+<div class="field">
+    <button color="accent" mat-raised-button *ngFor="let field of fields">{{field}}</button>
+</div>
+<button mat-raised-button class="material">Material</button>
+<app-clock></app-clock>
